@@ -1,0 +1,40 @@
+.mailchimp-sub {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, .4);
+}
+
+.mailchimp-sub input {
+  margin: .5rem;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+  text-align: center;
+}
+
+.mailchimp-sub button {
+  margin: .5rem;
+  padding: .5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background-color: #3B5B7C;
+  color: white;
+  border-radius: 4px;
+}
+
+.mailchimp-sub button:hover {
+  cursor: pointer;
+  background-color: #4372a0;
+}
+
+.mailchimp-sub p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #3B5B7C !important; 
+}
