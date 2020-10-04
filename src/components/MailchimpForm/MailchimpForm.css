@@ -6,6 +6,7 @@
   padding: 10px;
   width: 30%;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, .4);
+  margin-top: 20px;
 }
 
 .mailchimp-sub input {
@@ -14,6 +15,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+  border: 1px solid #377aa7;
   text-align: center;
 }
 
@@ -42,6 +44,7 @@
   font-family: 'Roboto', sans-serif;
   color: #3B5B7C !important; 
 }
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
