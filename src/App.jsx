@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <img src="https://i.ibb.co/TDf0NTJ/logo-option-2exports.png" id="landing-img" alt="logo-option-2" />
-      <p id="describer">The App that Reimagines Social Life on Campus.</p>
+      <p id="describer">The App that Reimagines Social Life on Campus and Beyond.</p>
       <h1 id="capture">Subscribe below for Updates!</h1>
       <MailchimpForm />
       <Footer />
