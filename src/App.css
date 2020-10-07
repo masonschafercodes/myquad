@@ -5,10 +5,8 @@ body {
 }
 
 #landing-img {
-  border-radius: 5px;
   width: 350px;
   height: 350px;
-  box-shadow: 5px 5px 4px rgba(0, 0, 0, .4);
 }
 
 #capture {
