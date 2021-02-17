@@ -24,14 +24,14 @@ export default class ConnectForm extends React.Component {
               method="POST"
               className="w-full"
             >
-              <div>
-                <div>
-                  <label className="font-display text-white">Email: </label>
-                </div>
+              <div className="flex flex-col items-center">
+                <label className="font-display text-white text-lg">
+                  Email:{" "}
+                </label>
                 <input
                   type="email"
                   name="email"
-                  className="p-2 mt-2 rounded focus:outline-none"
+                  className="p-2 mt-2 rounded focus:outline-none focus:underline"
                   placeholder="email@email.com"
                 />
               </div>
@@ -39,7 +39,7 @@ export default class ConnectForm extends React.Component {
               {status === "SUCCESS" ? (
                 <p className="font-display text-green-500">Thanks!</p>
               ) : (
-                <button className="bg-white p-2 mt-3 rounded-lg font-display hover:bg-gray-200">
+                <button className="bg-white p-2 mt-3 rounded-lg font-display hover:bg-gray-200 w-full">
                   Submit
                 </button>
               )}
